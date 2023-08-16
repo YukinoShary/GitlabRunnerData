@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitlabRunnerData", "GitlabRunnerData\GitlabRunnerData.csproj", "{DB5ADDB6-2C2E-4357-A206-7F62F36BB727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5ADDB6-2C2E-4357-A206-7F62F36BB727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5ADDB6-2C2E-4357-A206-7F62F36BB727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5ADDB6-2C2E-4357-A206-7F62F36BB727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5ADDB6-2C2E-4357-A206-7F62F36BB727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A82EE622-FBC7-4A8B-8736-87076F8B3FFA}
+	EndGlobalSection
+EndGlobal

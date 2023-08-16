@@ -1,0 +1,56 @@
+﻿@page
+@model GitlabRunnerData.Pages.ShowJobsModel
+<div>@Html.DisplayFor(modelItem => Model.jobDetail.Count) </div>
+<table>
+        <tr>
+            <th>
+                Job ID
+            </th>
+            <th>
+                Job Name
+            </th>
+            <th>
+                Job Status
+            </th>
+            <th>
+                Runner
+            </th>
+            <th>
+                Started Time
+            </th>
+            <th>
+                Finished Time
+            </th>
+            <th>
+                Duration Time
+            </th>
+            <th>
+                User
+            </th>
+            <th>
+                Project ID
+            </th>
+            <th>
+                Project Name
+            </th>
+            <th>
+                Project Created Time
+            </th>
+        </tr>
+        @foreach(var item in Model.jobDetail)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.id)</td>
+                <td>@Html.DisplayFor(modelItem => item.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.status)</td>
+                <td>@Html.DisplayFor(modelItem => item.runner.description)</td>
+                <td>@Html.DisplayFor(modelItem => item.started_at)</td>
+                <td>@Html.DisplayFor(modelItem => item.finished_at)</td>
+                <td>@Html.DisplayFor(modelItem => item.duration)</td>
+                <td>@Html.DisplayFor(modelItem => item.user.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.project.id)</td>
+                <td>@Html.DisplayFor(modelItem => item.project.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.project.created_at)</td>
+            </tr>
+        }
+</table>
